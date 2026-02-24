@@ -6,7 +6,7 @@ function App() {
   const [text, setText] = useState('')
   const [notes, setNotes] = useState([])
 
-  const API_URL = "https://your-backend-name.onrender.com/api/notes"; 
+  const API_URL = "https://note-app-backend-wm1u.onrender.com"; 
   // You will get this URL after Step 3
 
   // Load notes from MongoDB on startup
